@@ -29,3 +29,6 @@ PrefixTree.prototype.find = function(val, idx){
   }
 };
 
+PrefixTree.prototype.frequency = function(){
+  return this.freq;
+};
